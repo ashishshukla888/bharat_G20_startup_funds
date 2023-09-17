@@ -1,9 +1,9 @@
 import streamlit as st
+import pandas as pd
+import matplotlib.pyplot as plt
+
 
 st.set_page_config(layout='wide',page_title = 'Startup Analysis')
-import matplotlib.pyplot as plt
-import pandas as pd
-
 
 df = pd.read_csv('startup_cleaned.csv')
 
